@@ -180,7 +180,7 @@ nav{
   color: #fc71a4;
 }
 .about .row .a-text p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 22px;
   margin-bottom: 3rem;
   color: #444;
@@ -241,7 +241,7 @@ nav{
   text-align: center;
   color: #fd85b2;
   margin-bottom: -2rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 .price-list-container {
   padding: 1.6rem 2rem;
@@ -273,8 +273,8 @@ nav{
   align-items: center;
 }
 .price-list-desc p {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 20px;
   color: #666;
   width: fit-content;
   text-align: justify;
@@ -326,7 +326,7 @@ tr:nth-child(even){
 .socials{
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
 }
 .socials svg{
     padding: 7px 12px;
@@ -349,8 +349,8 @@ tr:nth-child(even){
     gap: 20px;
   }
   .hero-text .h-text h1{
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 35px !important;
+    line-height: 45px !important;
     margin-bottom: 1.5rem;
   }
   .sect-title{
