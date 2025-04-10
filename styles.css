@@ -217,7 +217,7 @@ nav{
   text-align: center;
   background-color: #ff74a7;
   border-radius: 6px;
-  box-shadow: 0 0 20px #0004;
+  box-shadow: 0 0 20px #1112;
 }
 .prod-item .prod-img {
   width: 95%;
@@ -254,6 +254,7 @@ nav{
 .price-list {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 .price-list .price-list-img {
   aspect-ratio: 1;
@@ -349,8 +350,8 @@ tr:nth-child(even){
     gap: 20px;
   }
   .hero-text .h-text h1{
-    font-size: 35px !important;
-    line-height: 45px !important;
+    font-size: 35px;
+    line-height: 45px;
     margin-bottom: 1.5rem;
   }
   .sect-title{
@@ -405,8 +406,9 @@ tr:nth-child(even){
     display: none;
   }
   .hero-text .h-text h1{
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: left;
   }
   .cta{
     margin-top: -1rem;
@@ -436,6 +438,9 @@ tr:nth-child(even){
   .prod-item .prod-title{
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
+  }
+  #contact .col-img img{
+    height: 450px;
   }
   /* menu */
   header{
