@@ -406,7 +406,7 @@ tr:nth-child(even){
     grid-template-columns: none !important;
   }
   .h-text p{
-    text-align: left;
+    text-align: justify;
   }
   .text-col.h-img{
     display: none;
