@@ -667,11 +667,11 @@ nav {
 
 /* Event Gallery Section */
 .event-gallery {
-  background: #e6dbff;
+  background: #37204a;
   padding: 4rem 0 3rem 0;
 }
 .event-gallery .sect-title {
-  color: #37204a;
+  color: #fff;
   text-align: center;
   margin-bottom: 2.5rem;
 }
@@ -684,7 +684,7 @@ nav {
 }
 .event-grid-item {
   background: #fff;
-  box-shadow: -5px 5px 0 0 #c6aefdc2;
+  box-shadow: -5px 5px 0 0 #fdfcffc2;
   border-radius: 16px;
   overflow: hidden;
   display: flex;
@@ -774,6 +774,7 @@ nav {
   font-size: 1rem;
   color: #4a305f;
   font-family: "Winky Rough", sans-serif;
+  text-align: justify;
 }
 @media only screen and (max-width: 900px) {
   .event-satisfy-grid {
