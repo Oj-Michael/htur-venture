@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WiSolar Installation | HTUR VENTURE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+      .wisolar-hero {
+        background: linear-gradient(120deg, #1a2236 60%, #43cea2 100%), url('images/hero-bg.jpg');
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: #fff;
+      }
+      .estore-section {
+        background: #f8f5ff;
+        padding: 4rem 0 3rem 0;
+      }
+      .estore-title {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #37204a;
+        margin-bottom: 2rem;
+        font-family: 'Philosopher', sans-serif;
+      }
+      .estore-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 2rem;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .estore-card {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px #6d5bba15;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        transition: transform 0.2s, box-shadow 0.2s;
+        overflow: hidden;
+      }
+
+      .estore-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        background: #f8f5ff;
+        border-radius: 0;
+      }
+      .estore-card-content {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+      .estore-card-title {
+        font-size: 1.2rem;
+        font-weight: 550;
+        color: #572d7a;
+        margin-bottom: 0.8rem;
+        text-align: left;
+        line-height: 1.3;
+      }
+      .estore-card-amount {
+        font-size: 0.95rem;
+        color: #34a5d9;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: left;
+        letter-spacing: 1px;
+      }
+      .estore-card-details {
+        margin-bottom: 1.5rem;
+      }
+      .estore-card-section {
+        margin-bottom: 0.8rem;
+      }
+      .estore-card-label {
+        font-size: 0.9rem;
+        color: #37204a;
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+        text-align: left;
+      }
+      .estore-card-value {
+        font-size: 0.95rem;
+        color: #37204a;
+        font-weight: 500;
+        text-align: left;
+      }
+      .estore-card-btn {
+        padding: 1rem 1.5rem;
+        background: linear-gradient(to right, #24a5aa, #896bff);
+        color: #ffffff;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        margin-top: auto;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero wisolar-hero">
+      <div class="container">
+        <header>
+          <img src="images/htur-logo.png" alt="logo" class="logo">
+          <nav>
+            <button class="menu-icon" id="btn" aria-expanded="false">
+              <img src="images/burger-menu-svgrepo-com.svg" alt="">
+            </button>
+            <ul id="nav" aria-expanded="false">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#estore">E-Store</a></li>
+              <li><a href="#footer-contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="hero-text">
+          <div class="text-col h-text">
+            <h1 class="event-hero-title">Switch to Solar, Power Your Future</h1>
+            <p class="event-hero-desc">WiSolar Installation by HTUR VENTURE offers expert consultations and quality solar solutions for homes and businesses. Harness clean, reliable energy today.</p>
+            <a href="#estore" class="cta">Shop Solar Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- E-Store Section -->
+    <section class="estore-section" id="estore">
+      <div class="container">
+        <h2 class="estore-title">Solar Products E-Store</h2>
+        <div class="estore-grid">
+          <div class="estore-card">
+            <img src="images/wiSol1.png" alt="Solar Panel Kit">
+            <div class="estore-card-content">
+              <div class="estore-card-title">WIS 5.0l Lithium Battery</div>
+              <div class="estore-card-amount">₦1,100,000</div>
+              <div class="estore-card-details">
+                <div class="estore-card-section">
+                  <div class="estore-card-label">Basic Energy</div>
+                  <div class="estore-card-value">5.1kWh</div>
+                </div>
+              </div>
+              <button class="estore-card-btn">Place Order</button>
+            </div>
+          </div>
+          <div class="estore-card">
+            <img src="images/wiSol5.jpg" alt="Solar Flood Light">
+            <div class="estore-card-content">
+              <div class="estore-card-title">Backup System with Lithium-ion</div>
+              <div class="estore-card-amount">₦5,546,820</div>
+              <div class="estore-card-details">
+                <div class="estore-card-section">
+                  <div class="estore-card-label">Basic Energy</div>
+                  <div class="estore-card-value">Average lifetime system usage on hybrid system integration 20 years.</div>
+                </div>
+              </div>
+              <button class="estore-card-btn">Place Order</button>
+            </div>
+          </div>
+          <div class="estore-card">
+            <img src="images/wiSol2.png" alt="Inverter System">
+            <div class="estore-card-content">
+              <div class="estore-card-title">3KW Baby Plan</div>
+              <div class="estore-card-amount">₦4,473,865</div>
+              <div class="estore-card-details">
+                <div class="estore-card-section">
+                  <div class="estore-card-label">Basic Energy</div>
+                  <div class="estore-card-value">Approximate power generated: 2,409 to 3623 kwh</div>
+                </div>
+              </div>
+              <button class="estore-card-btn">Place Order</button>
+            </div>
+          </div>
+          <div class="estore-card">
+            <img src="images/wiSol3.png" alt="Deep Cycle Battery">
+            <div class="estore-card-content">
+              <div class="estore-card-title">5KW Medium Plan</div>
+              <div class="estore-card-amount">₦6,471,285</div>
+              <div class="estore-card-details">
+                <div class="estore-card-section">
+                  <div class="estore-card-label">Basic Energy</div>
+                  <div class="estore-card-value">Approximate power generated: 2,860 to 7,678 kwh</div>
+                </div>
+              </div>
+              <button class="estore-card-btn">Place Order</button>
+            </div>
+          </div>
+          <div class="estore-card">
+            <img src="images/wiSol4.png" alt="Charge Controller">
+            <div class="estore-card-content">
+              <div class="estore-card-title">5KW Popular Plan</div>
+              <div class="estore-card-amount">₦7,395,755</div>
+              <div class="estore-card-details">
+                <div class="estore-card-section">
+                  <div class="estore-card-label">Basic Energy</div>
+                  <div class="estore-card-value">Approximate power generated: 4,292 to 5,518 kwh</div>
+                </div>
+              </div>
+              <button class="estore-card-btn">Place Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about event-about" id="about">
+      <div class="container">
+          <div class="row">
+            <div class="col a-text">
+                <h2 class="sect-title">Expert Solar Services</h2>
+                <p>Our team delivers end-to-end solar solutions, from site assessment and system design to installation and maintenance. We help you reduce energy costs, increase reliability, and embrace a sustainable future.</p>
+              </div>
+          </div>
+          <h3 class="event-satisfy-title">Why Choose WiSolar?</h3>
+            <div class="event-satisfy-grid">
+              <div class="event-satisfy-card">
+                <div class="event-satisfy-icon">🔋</div>
+                <div>
+                  <div class="event-satisfy-card-title">Quality Products</div>
+                  <div class="event-satisfy-card-desc">Only top-tier solar panels, inverters, and batteries for lasting performance.</div>
+                </div>
+              </div>
+              <div class="event-satisfy-card">
+                <div class="event-satisfy-icon">⚡</div>
+                <div>
+                  <div class="event-satisfy-card-title">Professional Installation</div>
+                  <div class="event-satisfy-card-desc">Certified experts ensure safe, efficient, and code-compliant setups.</div>
+                </div>
+              </div>
+              <div class="event-satisfy-card">
+                <div class="event-satisfy-icon">💡</div>
+                <div>
+                  <div class="event-satisfy-card-title">Custom Solutions</div>
+                  <div class="event-satisfy-card-desc">We provide tailor-made systems to your energy needs, property, and budget.</div>
+                </div>
+              </div>
+              <div class="event-satisfy-card">
+                <div class="event-satisfy-icon">📱</div>
+                <div>
+                  <div class="event-satisfy-card-title">Smart Monitoring</div>
+                  <div class="event-satisfy-card-desc">Track your energy production and savings in real-time with our smart monitoring system.</div>
+                </div>
+              </div>
+              <div class="event-satisfy-card">
+                <div class="event-satisfy-icon">🌞</div>
+                <div>
+                  <div class="event-satisfy-card-title">Sustainable Impact</div>
+                  <div class="event-satisfy-card-desc">Reduce your carbon footprint and support a greener planet with our sustainable solar solutions.</div>
+                </div>
+              </div>
+            </div>            
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="event-gallery" id="services">
+      <div class="container">
+        <h2 class="sect-title">Our Solar Services</h2>
+        <div class="event-grid">
+          <div class="event-grid-item">
+            <div style="padding: 2rem; text-align: center; color: #37204a;">
+              <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Residential Installation</h3>
+              <p style="font-size: 1rem; line-height: 1.5;">Custom solar systems for homes, reducing energy bills and increasing independence.</p>
+            </div>
+          </div>
+          <div class="event-grid-item">
+            <div style="padding: 2rem; text-align: center; color: #37204a;">
+              <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Commercial Solutions</h3>
+              <p style="font-size: 1rem; line-height: 1.5;">Scalable solar power for offices, factories, and businesses of all sizes.</p>
+            </div>
+          </div>
+          <div class="event-grid-item">
+            <div style="padding: 2rem; text-align: center; color: #37204a;">
+              <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Solar Panel Upgrades</h3>
+              <p style="font-size: 1rem; line-height: 1.5;">Upgrade old systems for better efficiency and higher output.</p>
+            </div>
+          </div>
+          <div class="event-grid-item">
+            <div style="padding: 2rem; text-align: center; color: #37204a;">
+              <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Battery Storage</h3>
+              <p style="font-size: 1rem; line-height: 1.5;">Store excess energy for use at night or during outages.</p>
+            </div>
+          </div>
+          <div class="event-grid-item">
+            <div style="padding: 2rem; text-align: center; color: #37204a;">
+              <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Maintenance & Support</h3>
+              <p style="font-size: 1rem; line-height: 1.5;">Ongoing care to keep your solar system running at its best.</p>
+            </div>
+          </div>
+          <div class="event-grid-item">
+            <div style="padding: 2rem; text-align: center; color: #37204a;">
+              <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Energy Consultation</h3>
+              <p style="font-size: 1rem; line-height: 1.5;">Expert analysis of your energy needs and customized solar solutions for optimal savings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-contact" id="footer-contact">
+      <div class="footer-container">
+        <div class="footer-img-col">
+          <img src="images/solar-energy.png" alt="HTUR Venture Logo" />
+        </div>
+        <div class="footer-info-col">
+          <h2 class="footer-title">We are available for you</h2>
+          <p class="footer-desc">Contact us anytime for your solar needs, consultations, or inquiries. We respond promptly and are always happy to help!</p>
+          <div class="footer-table-wrap">
+            <table class="footer-table">
+              <tbody>
+                <tr><td>Monday</td><td>9am - 7pm</td></tr>
+                <tr><td>Tuesday</td><td>9am - 7pm</td></tr>
+                <tr><td>Wednesday</td><td>9am - 7pm</td></tr>
+                <tr><td>Thursday</td><td>9am - 7pm</td></tr>
+                <tr><td>Friday</td><td>9am - 7pm</td></tr>
+                <tr><td>Saturday</td><td>Closed</td></tr>
+                <tr><td>Sunday</td><td>11am - 5pm</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="footer-socials">
+            <a href="#" aria-label="TikTok" class="footer-social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="footer-social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+            <a href="#" aria-label="X" class="footer-social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="footer-social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+            </a>
+            <a href="tel:+44123321" aria-label="Phone" class="footer-social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+            </a>
+          </div>
+          <p class="footer-contact-info">Call: +44 123 321</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // to toggle the menu
+      const btn = document.getElementById("btn");
+      const nav = document.getElementById("nav");
+      let isOpen = false;
+
+      btn.addEventListener("click", () => {
+        if (isOpen === false) {
+          btn.setAttribute("aria-expanded", "true");
+          nav.setAttribute("aria-expanded", "true");
+          isOpen = true;
+        } else {
+          btn.setAttribute("aria-expanded", "false");
+          nav.setAttribute("aria-expanded", "false");
+          isOpen = false;
+        }
+      });
+    </script>
+  </body>
+</html> 

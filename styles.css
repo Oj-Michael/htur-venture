@@ -570,26 +570,25 @@ nav {
 }
 .footer-socials {
   display: flex;
-  gap: 1.2rem;
-  margin-bottom: 1.2rem;
+  gap: 1.5rem;
+  margin-top: 1.3rem;
 }
 .footer-social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff1;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px #6d5bba44;
-  padding: 0.3rem 0.5rem;
+  padding: 7px 12px;
+  border-radius: 5px;
+  background: #37204a;
   transition: background 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.footer-social-icon svg {
+  width: 20px;
+  fill: #fff;
 }
 .footer-social-icon:hover {
-  background: #9271d7;
-}
-.footer-social-icon:hover svg path,
-.footer-social-icon:hover svg circle {
-  fill: #fff;
-  stroke: #fff;
+  background: #4a305f;
 }
 .footer-contact-info {
   color: #9271d7;
